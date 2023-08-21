@@ -1,0 +1,55 @@
+body{
+	margin: 0;
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	min-width: 400px;
+}
+
+
+input{
+
+	/* padding-left: 10px;
+	padding-right: 10px; */
+	width: 100%;	/* 100% + 10px + 1opx ) */
+	box-sizing: border-box;  /* includes padding as well */
+	/* padding-top: 10px;
+	padding-bottom: 10px; */
+	padding: 10px;
+
+	border: 1px solid #5f9341;
+
+}
+
+button{
+	margin-top: 4px;
+	background: #5f9341;
+	color: white;
+	border: 1px solid #5f9341;
+	font-weight: bold;
+	/* padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px; */
+
+	padding: 10px 20px;
+}
+
+#delete-btn {
+	color: #5f9341;
+	background: white
+}
+/* Using broad Selector ---- If we want to add, any other anchor tag, specifiy then*/
+ul	{
+	list-style: none;
+	padding-left: 0px;
+	margin-top: 20px;
+}
+
+li{
+	margin-top: 5px;
+	/* font-weight: bold; */
+}
+/* specifing that color only anchor tags, those are inside li */
+li a {
+	color: #5f9341;
+}
