@@ -8,11 +8,11 @@ body{
 
 input{
 
-	/* padding-left: 10px;
-	padding-right: 10px; */
-	width: 100%;	/* 100% + 10px + 1opx ) */
+	width: 100%;	/* 100% + 10px + 10px ) */
 	box-sizing: border-box;  /* includes padding as well */
-	/* padding-top: 10px;
+	/* padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
 	padding-bottom: 10px; */
 	padding: 10px;
 
@@ -22,10 +22,11 @@ input{
 
 button{
 	margin-top: 4px;
-	background: #5f9341;
+	background: #38377d;
 	color: white;
-	border: 1px solid #5f9341;
+	border: 1px solid #38377d;
 	font-weight: bold;
+	border-radius: 40px;
 	/* padding-top: 10px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -34,8 +35,8 @@ button{
 	padding: 10px 20px;
 }
 
-#delete-btn {
-	color: #5f9341;
+#delete-btn, #marked-delete-btn{
+	color: #38377d;
 	background: white
 }
 /* Using broad Selector ---- If we want to add, any other anchor tag, specifiy then*/
